@@ -1,0 +1,13 @@
+.page {
+    margin: 0;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    background-color: rgb(34, 32, 32);
+}
+
+.page * {
+    list-style-type: none;
+}
+
+.page a {
+    text-decoration: none;
+}

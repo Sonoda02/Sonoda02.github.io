@@ -1,0 +1,58 @@
+.header {
+    /* height: 30px; */
+    background-color: rgb(43, 43, 43);
+    font-weight: 700;
+    height: fit-content;
+}
+
+.header a {
+    color: white;
+    margin: auto 5px;
+}
+
+.header__container {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.header__logo * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.header__img {
+    height: 40px;
+    width: 40px;
+}
+
+.header__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style-type: none;
+    margin: 0;
+}
+
+.header__ul li {
+    margin: 15px 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header__signup {
+    background-color: purple;
+    padding: 10px;
+    border-radius: 20px;
+}

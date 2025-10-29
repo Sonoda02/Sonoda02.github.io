@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Lab 1</title>
+</head>
+<body class="page">
+    <header class="header">
+        <div class="header__container">
+            <span class="header__logo">
+                <a href=""><img src="assets/Storefront.svg" alt="error" class="header__img"></a>
+                <a href="">NFT Marketplace</a>
+            </span>
+            <nav>
+                <ul class="header__ul">
+                    <li><a href="#description">Marketplace</a></li>
+                    <li><a href="#tile">Rankings</a></li>
+                    <li><a href="">Connect a wallet</a></li>
+                    <li class="header__signup">
+                        <a href="">
+                            <img src="assets/user-add-svgrepo-com.svg" alt="error" class="header__img">
+                        </a>    
+                        <a href=""> 
+                            <span>Sign Up</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <img src="assets\background_image.jpg" alt="" srcset="" class="main_background">
+        <div class="main__block">
+            <div class="main__text-block">
+                <h1>The Orditians</h1>
+                <p class="main__data">Minted On Sep 30, 2022</p>
+                <p class="main__grey" id="description">Created By</p>
+                <div class="main__users-block">
+                    <img src="assets/person.png" alt="error">
+                    <p>Orbitian</p>
+                </div>
+                <p class="main__grey">Description</p>
+                <p class="main__information">
+                    The Orbitians <br> is a collection of 10,000 unique NFTs on the Ethereum blockchain, 
+                </p>
+                <p class="main__information">
+                    There are all sorts of beings in the NFT Universe. 
+                    The most advanced and friendly of the bunch are Orbitians. 
+                </p>
+                <p class="main__information">
+                    They live in a metal space machines, high up in the sky and only have one foot on Earth. <br>
+                    These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. 
+                    The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, 
+                    yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an 
+                    eye into Orbitian territory, so they've taken to make human beings their target.</p>
+                <p class="main__grey">Details</p>
+                <p class="main__detail">
+                    <img src="assets\globe-svgrepo-com.svg" alt="error">
+                    <a href="">View on Etherscan</a>
+                </p>
+                <p class="main__detail">
+                    <img src="assets\globe-svgrepo-com.svg" alt="error">
+                    <a href="">View Original</a>
+                </p>
+                <p class="main__grey">Tags</p>
+                <ul class="main__tags">
+                    <li>ANIMATION</li>
+                    <li>ILLUSTRATION</li>
+                    <li>MOON</li>
+                    <li>MOON</li>
+                </ul>
+            </div>
+            <div class="main__timer-block">
+                <p>Auction ends in:</p>
+                <ul>
+                    <li class="main__time-value">
+                        <div id="hours">59</div>
+                        <div class="main__time-text">Hours</div>
+                    </li>
+                    <li>:</li>
+                    <li class="main__time-value">
+                        <div id="minutes">59</div>
+                        <div class="main__time-text">Minutes</div>
+                    </li>
+                    <li>:</li>
+                    <li class="main__time-value">
+                        <div id="seconds">59</div>
+                        <div class="main__time-text">Seconds</div>
+                    </li>
+                </ul>
+                <a href="">Place Bid</a>
+            </div>
+        </div>
+        <div class="main__more-information">
+            <h3>More From This Artist</h3>
+            <a href="">
+                <img src="assets/ArrowRight.svg" alt="error">
+                <p>Go To Artist Page</p>
+            </a>
+        </div> 
+        <div class="tile__block" id="tile">
+<!-- --------------------- -->
+            <!-- div.tile*9>img[src="assets/$.png" alt="error"]+h3+div.tile__text>div.main__users-block>img[src="assets/person.png" alt="error"]+p.tile__low-text{Orbitian}^div.tile__price>p.tile__low-grey{price}+p.tile__low-price{1.63ETH}^div.tile_highest_bid>p.tile__low-grey{Highest Bid}+p.tile__low-price{0.33 wETH} -->
+            <div class="tile">
+                <img src="assets/1.png" alt="error">
+                <h3>Foxy Life</h3>
+                <div class="tile__text">
+                    <div class="tile__users-block">
+                        <img src="assets/person.png" alt="error">
+                        <p class="tile__low-text">Orbitian</p>
+                    </div>
+                    <div class="tile__description">
+                        <div class="tile__price">
+                            <p class="tile__low-grey">price</p>
+                            <p class="tile__low-price">1.63ETH</p>
+                        </div>
+                        <div class="tile_highest_bid">
+                            <p class="tile__low-grey">Highest Bid</p>
+                            <p class="tile__low-price">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tile">
+                <img src="assets/2.png" alt="error">
+                <h3>Cat From Future</h3>
+                <div class="tile__text">
+                    <div class="tile__users-block">
+                        <img src="assets/person.png" alt="error">
+                        <p class="tile__low-text">Orbitian</p>
+                    </div>
+                    <div class="tile__description">
+                        <div class="tile__price">
+                            <p class="tile__low-grey">price</p>
+                            <p class="tile__low-price">1.63ETH</p>
+                        </div>
+                        <div class="tile_highest_bid">
+                            <p class="tile__low-grey">Highest Bid</p>
+                            <p class="tile__low-price">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tile">
+                <img src="assets/3.png" alt="error">
+                <h3>Psycho Dog</h3>
+                <div class="tile__text">
+                    <div class="tile__users-block">
+                        <img src="assets/person.png" alt="error">
+                        <p class="tile__low-text">Orbitian</p>
+                    </div>
+                    <div class="tile__description">
+                        <div class="tile__price">
+                            <p class="tile__low-grey">price</p>
+                            <p class="tile__low-price">1.63ETH</p>
+                        </div>
+                        <div class="tile_highest_bid">
+                            <p class="tile__low-grey">Highest Bid</p>
+                            <p class="tile__low-price">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tile">
+                <img src="assets/4.png" alt="error">
+                <h3>Designer Bear</h3>
+                <div class="tile__text">
+                    <div class="tile__users-block">
+                        <img src="assets/person.png" alt="error">
+                        <p class="tile__low-text">Orbitian</p>
+                    </div>
+                    <div class="tile__description">
+                        <div class="tile__price">
+                            <p class="tile__low-grey">price</p>
+                            <p class="tile__low-price">1.63ETH</p>
+                        </div>
+                        <div class="tile_highest_bid">
+                            <p class="tile__low-grey">Highest Bid</p>
+                            <p class="tile__low-price">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tile">
+                <img src="assets/5.png" alt="error">
+                <h3>Dancing Robot 0375</h3>
+                <div class="tile__text">
+                    <div class="tile__users-block">
+                        <img src="assets/person.png" alt="error">
+                        <p class="tile__low-text">Orbitian</p>
+                    </div>
+                    <div class="tile__description">
+                        <div class="tile__price">
+                            <p class="tile__low-grey">price</p>
+                            <p class="tile__low-price">1.63ETH</p>
+                        </div>
+                        <div class="tile_highest_bid">
+                            <p class="tile__low-grey">Highest Bid</p>
+                            <p class="tile__low-price">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tile">
+                <img src="assets/6.png" alt="error">
+                <h3>Dancing Robot 0356</h3>
+                <div class="tile__text">
+                    <div class="tile__users-block">
+                        <img src="assets/person.png" alt="error">
+                        <p class="tile__low-text">Orbitian</p>
+                    </div>
+                    <div class="tile__description">
+                        <div class="tile__price">
+                            <p class="tile__low-grey">price</p>
+                            <p class="tile__low-price">1.63ETH</p>
+                        </div>
+                        <div class="tile_highest_bid">
+                            <p class="tile__low-grey">Highest Bid</p>
+                            <p class="tile__low-price">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tile">
+                <img src="assets/7.png" alt="error">
+                <h3>Dancing Robot 0321</h3>
+                <div class="tile__text">
+                    <div class="tile__users-block">
+                        <img src="assets/person.png" alt="error">
+                        <p class="tile__low-text">Orbitian</p>
+                    </div>
+                    <div class="tile__description">
+                        <div class="tile__price">
+                            <p class="tile__low-grey">price</p>
+                            <p class="tile__low-price">1.63ETH</p>
+                        </div>
+                        <div class="tile_highest_bid">
+                            <p class="tile__low-grey">Highest Bid</p>
+                            <p class="tile__low-price">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tile">
+                <img src="assets/8.png" alt="error">
+                <h3>Dancing Robot 0512</h3>
+                <div class="tile__text">
+                    <div class="tile__users-block">
+                        <img src="assets/person.png" alt="error">
+                        <p class="tile__low-text">Orbitian</p>
+                    </div>
+                    <div class="tile__description">
+                        <div class="tile__price">
+                            <p class="tile__low-grey">price</p>
+                            <p class="tile__low-price">1.63ETH</p>
+                        </div>
+                        <div class="tile_highest_bid">
+                            <p class="tile__low-grey">Highest Bid</p>
+                            <p class="tile__low-price">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tile">
+                <img src="assets/9.png" alt="error">
+                <h3>Dancing Robot 0024</h3>
+                <div class="tile__text">
+                    <div class="tile__users-block">
+                        <img src="assets/person.png" alt="error">
+                        <p class="tile__low-text">Orbitian</p>
+                    </div>
+                    <div class="tile__description">
+                        <div class="tile__price">
+                            <p class="tile__low-grey">price</p>
+                            <p class="tile__low-price">1.63ETH</p>
+                        </div>
+                        <div class="tile_highest_bid">
+                            <p class="tile__low-grey">Highest Bid</p>
+                            <p class="tile__low-price">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- --------------------- -->
+        </div>
+    </main>
+    <footer>
+        <div class="footer__main">
+            <div class="footer__block">
+                <div class="footer__marketplace">
+                    <img src="assets/Storefront.svg" alt="Error">
+                    <h5>NFT Marketplace</h5>
+                </div>
+                <p>NFT marketplace UI created <br> with Anima for Figma.</p>
+                <p>Join our community</p>
+                <div class="footer__community">
+                    <img src="assets/DiscordLogo.svg" alt="error">
+                    <img src="assets/YoutubeLogo.svg" alt="error">
+                    <img src="assets/TwitterLogo.svg" alt="error">
+                    <img src="assets/InstagramLogo.svg" alt="error">
+                </div>
+            </div>
+            <div class="footer__block">
+                <h5>Explore</h5>
+                <p>Marketplace</p>
+                <p>Rankings</p>
+                <p>Connect a wallet</p>
+            </div>
+            <div class="footer__block">
+                <h5>Join Our Weekly Digest</h5>
+                <p>Get exclusive promotions & updates <br> straight to your inbox.</p>
+                <div class="footer__form">
+                    <input type="email" placeholder="Enter your email here">
+                    <button type="submit">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>Ⓒ NFT Market. Use this template freely.</p>
+        </div>
+    </footer>
+</body>
+</html>
