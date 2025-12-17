@@ -1,0 +1,132 @@
+@media (max-width: 1200px) {
+    .tile__first-tiles {
+        margin: 8em 2em;
+    }
+
+    .tile__second-tiles {
+        margin: 8em 2em;
+    }
+
+    .tile__card {
+        padding: 30px 30px 30px 30px;
+    }
+    
+    .main__first-plate {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 2em 0px;
+    }
+
+    .main__first-text {
+        font-weight: 600;
+        font-size: 30px;
+        max-width: 70%;
+        margin-top: 1em;
+    }
+
+    .main__first-text h1 {
+        margin-top: 10px;
+    }
+
+    .main__second-text {
+        font-size: 20px;
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 950px) {
+    .tile__first-tiles {
+        margin: 8em 2em;
+        grid-template-columns: auto auto;
+    }
+
+    .tile__second-tiles {
+        margin: 8em 2em;
+        grid-template-columns: auto auto;
+    }
+
+    .header__button {
+        display: none;
+    }
+
+    .header__hamburger {
+        display: flex;
+    }
+
+    .header__menu {
+        width: 20%;
+    }
+
+    .footer__inner {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .footer__about {
+        grid-row: span 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__inner {
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: auto auto;
+    }
+
+    .footer__about {
+        text-align: center;
+        grid-column: span 2;
+    }
+
+    .footer__logo {
+        place-self: center;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tile__first-tiles {
+        margin: 8em 1em;
+        grid-template-columns: auto;
+    }
+
+    .tile__second-tiles {
+        margin: 8em 1em;
+        grid-template-columns: auto;
+    }
+
+    footer {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .main__our-features {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .main__our-features p {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .main__first-plate {
+        background-size: 110px 110px;
+    }
+}
+
+@media (max-width: 390px) {
+    .header__menu {
+        width: 100%;
+    }
+
+    .main__first-text {
+        font-size: 23px;
+    }
+}

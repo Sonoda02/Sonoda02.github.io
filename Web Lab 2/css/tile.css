@@ -1,0 +1,75 @@
+.tile__first-tiles {
+    margin: 8em 8em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 80px 40px;
+}
+
+.tile__card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 6px 6px 2px rgba(0,0,0,0.9);
+    position: relative;
+    border: 2px solid;
+    padding: 50px 50px 50px 50px;
+    transition: all 0.3s ease;
+}
+
+.tile__card:hover { 
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 10px rgba(0,0,0,0.9);
+}
+
+.tile__card-icon {
+    width: 74px;
+    height: 74px;
+    background: #f8cdb9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: -37px;
+    left: 20px;
+    border: 2px solid;
+}
+
+.tile__card-icon img {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+}
+
+.tile__card-title {
+    margin-top: 40px;
+    margin-bottom: 12px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Raleway';
+}
+
+.tile__card-text {
+    font-weight: 500;
+    font-size: 20px;
+    color: #555;
+    line-height: 1.4em;
+}
+
+.tile__second-tiles {
+    margin: 8em 8em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px 40px;
+    text-align: center;
+}
+
+.tile__second-tiles p {
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.tile__card-image img {
+    width: 100%;
+}
+
