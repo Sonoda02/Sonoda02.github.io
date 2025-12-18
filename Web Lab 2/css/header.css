@@ -7,6 +7,7 @@
     margin: 1em 2em;
     overflow: hidden;
     height: 80px;
+    background-color: white;
 }
 
 .header__logo {
@@ -56,13 +57,17 @@
     display: flex;
     align-items: center;   
     justify-content: center;
-    background-color: rgb(255, 245, 240);
+    background-color: white;
 
     transition: background-color 0.5s ease;
 }
 
 .header__button:hover {
-    background-color: rgb(255, 174, 127);
+    background-color: rgb(255, 239, 229);
+}
+
+.header__button:last-child {
+    background-color: rgb(255, 174, 128);
 }
 
 .header__hamburger {
@@ -70,7 +75,11 @@
     display: none;
     align-items: center;   
     justify-content: center;
-    background-color: rgb(255, 245, 240);
+    background-color: white;
 
     transition: background-color 0.5s ease;
+}
+
+.header__hamburger:hover {
+    background-color: rgb(255, 245, 240);
 }
